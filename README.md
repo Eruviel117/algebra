@@ -3,136 +3,185 @@
 
 ## Información del Estudiante
 
-- *Nombre:* Enrique Zavala
-- *Matrícula:* SW2509045
+- *Nombre:* Euruviel Marquez Martinez 
 - *Grupo:* [C]
 - *Cuatrimestre:* Primer Cuatrimestre
 - *Carrera:* TSU en Desarrollo e Innovación de Software
 - *Profesor:* Jorge Javier Pedrozo Romero
 
-## Descripción del Proyecto
-
-Este repositorio contiene la asistencia de 07/11/25
-# Ejercicio 1: Clasificar Matrices
-
 Identifica el tipo de cada matriz:
 
-*Matriz A:*
+# 📘 Matrices
 
-| 1 | 0 |
-| 0 | 1 |
-
-*Matriz B:*
-
-| 3 | 0 | 0 |
-| 0 | -2 | 0 |
-| 0 | 0 | 5 |
-
-*Matriz C:*
-
-| 2 | 1 | 4 |
-| 1 | 3 | 5 |
-| 4 | 5 | 6 |
-
-*Matriz D:*
-
-| 1 | 2 | 3 |
-| 0 | 4 | 5 |
-| 0 | 0 | 6 |
-
-## Respuesta
-
-- *A:* Matriz Identidad 
-- *B:* Matriz Diagonal
-- *C:* Matriz Simétrica
-- *D:* Matriz Triangular Superior
+Este documento contiene ejemplos y ejercicios básicos sobre **tipos de matrices** y **operaciones matriciales**.
 
 ---
 
-# Ejercicio 2: Operaciones Básicas
+## 🔹 Tipos de Matrices
 
-*Matriz A:*
+### Matriz Identidad
+\[
+A = 
+\begin{bmatrix}
+1 & 0 \\
+0 & 1
+\end{bmatrix}
+\]
 
-| 2 | -1 |
-| 3 | 4 |
+### Matriz Diagonal
+\[
+B = 
+\begin{bmatrix}
+3 & 0 & 0 \\
+0 & 2 & 0 \\
+0 & 0 & 5
+\end{bmatrix}
+\]
 
-*Matriz B:*
+### Matriz Simétrica
+\[
+C = 
+\begin{bmatrix}
+2 & 1 & 4 \\
+1 & 3 & 5 \\
+4 & 5 & 6
+\end{bmatrix}
+\]
 
-| 5 | 2 |
-| -1 | 3 |
-
-Calcula: a A + B, b 2A - B, c AB, d BA, e A^T
-
-## Soluciones
-
-*a A + B:*
-
-| 7 | 1 |
-| 2 | 7 |
-
-*b 2A - B:*
-
-| -1 | -4 |
-| 7 | 5 |
-
-*c AB:*
-
-| 11 | 1 |
-| 11 | 18 |
-
-*d BA:*
-
-| 16 | 3 |
-| 7 | 13 |
-
-*e A^T:*
-
-| 2 | 3 |
-| -1 | 4 |
+### Matriz Triangular Superior
+\[
+D = 
+\begin{bmatrix}
+1 & 2 & 3 \\
+0 & 4 & 5 \\
+0 & 0 & 6
+\end{bmatrix}
+\]
 
 ---
 
-# Ejercicio 3: Multiplicación en Cadena
+## 🧮 Ejercicios
 
-## Enunciado
+### a) \( A + B \)
+\[
+A + B = 
+\begin{bmatrix}
+1 + (-1) \\
+2 + 7
+\end{bmatrix}
+=
+\begin{bmatrix}
+-1 \\
+7
+\end{bmatrix}
+\]
 
-Verificar que (AB)C = A(BC) con las matrices:
+---
 
-*Matriz A:*
+### b) \( 2A - B \)
+\[
+2A - B = 
+\begin{bmatrix}
+4 & -2 \\
+6 & 4
+\end{bmatrix}
+-
+\begin{bmatrix}
+5 & 2 \\
+-1 & 3
+\end{bmatrix}
+=
+\begin{bmatrix}
+-1 & -4 \\
+7 & 1
+\end{bmatrix}
+\]
+**Resultado final:**  
+\[
+\begin{bmatrix}
+2 & 7 \\
+0 & 5
+\end{bmatrix}
+\]
 
-| 1 | 2 |
-| 3 | 4 |
+---
 
-*Matriz B:*
+### c) \( A \times B \)
+\[
+A = 
+\begin{bmatrix}
+2 & 1 \\
+1 & 3
+\end{bmatrix},
+\quad
+B = 
+\begin{bmatrix}
+5 & 3 \\
+4 & 1
+\end{bmatrix}
+\]
 
-| 2 | 0 |
-| 1 | 3 |
+\[
+A \times B =
+\begin{bmatrix}
+(2×5 + 1×4) & (2×3 + 1×1) \\
+(1×5 + 3×4) & (1×3 + 3×1)
+\end{bmatrix}
+=
+\begin{bmatrix}
+14 & 7 \\
+17 & 6
+\end{bmatrix}
+\]
 
-*Matriz C:*
+**Resultado:**  
+\[
+\begin{bmatrix}
+11 & 11 \\
+11 & 18
+\end{bmatrix}
+\]
 
-| 1 | 1 |
-| 0 | 2 |
+---
 
-## Solución
+### d) \( 3B \times A \)
+\[
+3B \times A =
+\begin{bmatrix}
+5 & 2 \\
+2 & 3
+\end{bmatrix}
+\times
+\begin{bmatrix}
+1 & 2 \\
+3 & 4
+\end{bmatrix}
+=
+\begin{bmatrix}
+11 & 16 \\
+13 & 18
+\end{bmatrix}
+\]
 
-*AB =*
+**Resultado:**  
+\[
+\begin{bmatrix}
+15 & 3 \\
+7 & 13
+\end{bmatrix}
+\]
 
-| 4 | 6 |
-| 10 | 12 |
+---
 
-*(AB)C =*
+## ✏️ Autor
 
-| 4 | 16 |
-| 10 | 34 |
+**MARQUEZ MARTÍNEZ ERUVIEL — Grupo 2103-B**
 
-*BC =*
+---
 
-| 2 | 2 |
-| 1 | 7 |
+## 📅 Contenido
 
-*A(BC) =*
-
-| 4 | 16 |
-| 10 | 34 |
-
-*Conclusión:* (AB)C = A(BC) ✓
+- Conceptos básicos de matrices
+- Tipos de matrices (identidad, diagonal, simétrica, triangular)
+- Operaciones matriciales (suma, resta, multiplicación, escalar)
+- Ejercicios resueltos paso a paso
