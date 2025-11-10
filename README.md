@@ -1,4 +1,4 @@
-# algebra
+### algebra
 # Fundamentos de Programación - Práctica 1
 
 ## Información del Estudiante
