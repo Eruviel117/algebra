@@ -158,6 +158,9 @@ $$
 ** Objetivo: verificar que (AB)C = A (BC)**
 
 Realiamos las operaciones de multiplicacion de AB 
+
+
+
 $$ **AB** =
 \begin{pmatrix}
 1(2) + 2(1) & 1(0) + 2(3) \\
