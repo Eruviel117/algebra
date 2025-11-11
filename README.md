@@ -158,13 +158,13 @@ $$
 
 
 
-## ✏️ Autor
+## Autor
 
-**MARQUEZ MARTÍNEZ ERUVIEL — Grupo 2103-B**
+**MARQUEZ MARTÍNEZ ERUVIEL — Grupo 1C**
 
 ---
 
-## 📅 Contenido
+## Contenido
 
 - Conceptos básicos de matrices
 - Tipos de matrices (identidad, diagonal, simétrica, triangular)
