@@ -9,7 +9,18 @@
 - *Carrera:* TSU en Desarrollo e Innovación de Software
 - *Profesor:* Jorge Javier Pedrozo Romero
 
+
+---
+
+## Contenido
+
+- Conceptos básicos de matrices
+- Tipos de matrices (identidad, diagonal, simétrica, triangular)
+- Operaciones matriciales (suma, resta, multiplicación, escalar)
+- Ejercicios resueltos paso a paso
+
 -----------
+
 # EJERCICIO 1 
 Identifica el tipo de cada matriz:
 
@@ -233,12 +244,3 @@ $$
 ## Autor
 
 **MARQUEZ MARTÍNEZ ERUVIEL — Grupo 1C**
-
----
-
-## Contenido
-
-- Conceptos básicos de matrices
-- Tipos de matrices (identidad, diagonal, simétrica, triangular)
-- Operaciones matriciales (suma, resta, multiplicación, escalar)
-- Ejercicios resueltos paso a paso
