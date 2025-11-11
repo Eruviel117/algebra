@@ -67,28 +67,63 @@ $$ **A** =
 $$
 
 a) A + B 
+Se suma los elementos que ocuparn la misma posicion 
 
- Respuesta = (7 1)
-              2 7
+$$ **A +B** =
+\begin{pmatrix}
+7 & 1 \\
+2 & 7 \\
+\end{pmatrix}
+$$
+
 
 b) 2A - B 
 
-Respuesta = (2 7)
-             0 5
+Se multiplican los elementos de la matriz A por dos y se restan a los resta los elementos correspondiente de la matriz B
+
+$$ **2A-B** =
+\begin{pmatrix}
+2 & 7 \\
+0 & 5 \\
+\end{pmatrix}
+$$
+
+
+
 c) A * B 
 
-Respuesta = (11 1 )
-             11 18
-             
+Cada elemento del resultado se obtiene multiplicando fila de A por columna de B 
+
+$$ **AxB** =
+\begin{pmatrix}
+11 & 1 \\
+11 & 18 \\
+\end{pmatrix}
+$$
+  
 d) B * A 
 
-Respuesta =(16 3 )
-            7  13
+Cada elemento del resultado se obtiene multiplicando fila de B por columna de A
+
+$$ **BxA** =
+\begin{pmatrix}
+16 & 3 \\
+7 & 13 \\
+\end{pmatrix}
+$$
+
 
 e) A^T
 
-Respuesta = (2  3)
-             -1 4 
+Se cambian la posicion de los columnas por los valores de las filas 
+
+$$ **BxA** =
+\begin{pmatrix}
+2 & 3 \\
+-1 & 4 \\
+\end{pmatrix}
+$$
+
 -----------------
 # EJERCICIO 3 Multiplicación en Cadena
 
