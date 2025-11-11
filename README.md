@@ -10,7 +10,7 @@
 - *Profesor:* Jorge Javier Pedrozo Romero
 
 -----------
-EJERCICIO 1 
+# EJERCICIO 1 
 Identifica el tipo de cada matriz:
 
 $$ **A** =
@@ -51,7 +51,7 @@ B = Matriz Diagonal
 C = Matriz simetria 
 D = Matriz triangular superior 
 ----------
-EJERCICIO 2 
+# EJERCICIO 2
 
 $$ **A** = 
 \begin{pmatrix}
@@ -134,7 +134,7 @@ $$
 ---
 ### Ejercicio 3: Multiplicación en Cadena
 
-**Dadas las matrices:**
+** Las matrices:**
 
 $$ **A** = 
 \begin{pmatrix}
@@ -154,6 +154,26 @@ $$ **A** =
 0 & 2 \\
 \end{pmatrix}
 $$
+
+** Objetivo: verificar que (AB)C = A (BC)**
+
+Realiamos las operaciones de multiplicacion de AB 
+$$ **AB** =
+\begin{pmatrix}
+1(2) + 2(1) & 1(0) + 2(3) \\
+3(2) + 4(1) & 3(0) + 3(4) \\
+\end{pmatrix} =
+\begin{pmatrix}
+2 + 2 & 0 + 6 \\
+6 + 4 & 0 + 12 \\
+\end{pmatrix} = 
+\begin{pmatrix}
+4 & 6 \\
+10 & 12 \\
+\end{pmatrix}
+$$
+
+
 
 
 
