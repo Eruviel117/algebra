@@ -52,11 +52,18 @@ D = Matriz triangular superior
 ----------
 EJERCICIO 2 
 
- A = (2 -1)
-      3  4
-
- B = ( 5 2)
-      -1 3
+$$ **A** = 
+\begin{pmatrix}
+2 & -1 \\
+3 & 4 \\
+\end{pmatrix},
+\qquad
+**B** = 
+\begin{pmatrix}
+5 & 2 \\
+-1 & 3 \\
+\end{pmatrix}
+$$
 
 a) A + B 
 
