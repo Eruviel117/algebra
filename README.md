@@ -177,7 +177,7 @@ $$ **AB** =
 $$
 
 
-Con el resultado de AB se multiplica con C 
+Con el resultado de AB se multiplica con C para completar la primera matriz 
 
 
 $$ **(AB)C** =
@@ -188,6 +188,45 @@ $$ **(AB)C** =
 \begin{pmatrix}
 4 + 0 & 4 + 12 \\
 10 + 0 & 10 + 24 \\
+\end{pmatrix} = 
+\begin{pmatrix}
+4 & 16 \\
+10 & 34 \\
+\end{pmatrix}
+$$
+
+
+
+Realizamos la opreacion para obtener el resultado de A(BC)
+
+
+$$ **BC** =
+\begin{pmatrix}
+2(1) + 0(0) & 2(1) + 0(2) \\
+1(1) + 3(0) & 1(1) + 3(2) \\
+\end{pmatrix} =
+\begin{pmatrix}
+2 + 0 & 2 + 0 \\
+1 + 0 & 1 + 6 \\
+\end{pmatrix} = 
+\begin{pmatrix}
+2 & 2 \\
+1 & 7 \\
+\end{pmatrix}
+$$
+
+
+Multiplicamos A * BC  
+
+
+$$ **A(BC)** =
+\begin{pmatrix}
+1(2) + 2(1) & 1(2) + 2(7) \\
+3(2) + 4(1) & 3(2) + 4(7) \\
+\end{pmatrix} =
+\begin{pmatrix}
+2 + 2 & 2 + 14 \\
+6 + 4 & 6 + 28 \\
 \end{pmatrix} = 
 \begin{pmatrix}
 4 & 16 \\
