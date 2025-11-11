@@ -72,19 +72,22 @@ Respuesta = (2  3)
 
 **Dadas las matrices:**
 
+
 $$ **A** = 
 \begin{pmatrix}
 1 & 2 \\
 3 & 4 \\
-\end{pmatrix},
+\end{pmatrix}
 $$}
+
 
 $$ **B** = 
 \begin{pmatrix}
 2 & 0 \\
 1 & 3 \\
-\end{pmatrix},
+\end{pmatrix}
 $$
+
 
 $$ **C** = 
 \begin{pmatrix}
