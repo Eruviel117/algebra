@@ -67,7 +67,32 @@ e) A^T
 Respuesta = (2  3)
              -1 4 
 -----------------
-# EJERCICIO 3 
+# EJERCICIO 3 Multiplicación en Cadena
+
+
+**Dadas las matrices:**
+
+$$ **A** = 
+\begin{pmatrix}
+1 & 2 \\
+3 & 4 \\
+\end{pmatrix},
+$$}
+
+$$ **B** = 
+\begin{pmatrix}
+2 & 0 \\
+1 & 3 \\
+\end{pmatrix},
+$$
+
+$$ **C** = 
+\begin{pmatrix}
+1 & 1 \\
+0 & 2 \\
+\end{pmatrix}
+$$
+
 
 
 
