@@ -73,23 +73,24 @@ Respuesta = (2  3)
 **Dadas las matrices:**
 
 
+---
+### Ejercicio 3: Multiplicación en Cadena
+
+**Dadas las matrices:**
+
 $$ **A** = 
 \begin{pmatrix}
 1 & 2 \\
 3 & 4 \\
-\end{pmatrix}
-$$}
-
-
-$$ **B** = 
+\end{pmatrix},
+\qquad
+**B** = 
 \begin{pmatrix}
 2 & 0 \\
 1 & 3 \\
-\end{pmatrix}
-$$
-
-
-$$ **C** = 
+\end{pmatrix},
+\qquad
+**C** = 
 \begin{pmatrix}
 1 & 1 \\
 0 & 2 \\
