@@ -177,7 +177,23 @@ $$ **AB** =
 $$
 
 
+Con el resultado de AB se multiplica con C 
 
+
+$$ **(AB)C** =
+\begin{pmatrix}
+4(1) + 6(0) & 4(1) + 6(2) \\
+10(1) + 12(0) & 10(1) + 12(2) \\
+\end{pmatrix} =
+\begin{pmatrix}
+4 + 0 & 4 + 12 \\
+10 + 0 & 10 + 24 \\
+\end{pmatrix} = 
+\begin{pmatrix}
+4 & 16 \\
+10 & 34 \\
+\end{pmatrix}
+$$
 
 
 
