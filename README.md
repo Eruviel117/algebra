@@ -128,12 +128,6 @@ $$
 # EJERCICIO 3 Multiplicación en Cadena
 
 
-**Dadas las matrices:**
-
-
----
-### Ejercicio 3: Multiplicación en Cadena
-
 ** Las matrices:**
 
 $$ **A** = 
