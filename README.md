@@ -44,7 +44,8 @@ $$ **D** =
 \end{pmatrix}
 $$
 
-#Respuesta 
+##Respuesta 
+
 A = identidad 
 B = Matriz Diagonal 
 C = Matriz simetria 
